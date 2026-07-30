@@ -1,0 +1,77 @@
+
+body{
+    margin: 0;
+    font-family: "Sue Ellen Francisco";
+
+
+}
+
+.hero{
+    position: relative;
+}
+
+.hero-bg{
+    width: 600px;
+    height: 167px;
+    
+}
+/*hero*/ 
+.hero-subtext, .hero-text{
+        position: absolute;
+            color: white;
+
+}
+.hero-text{
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.hero-subtext{
+    top: 60px;
+    left:10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+/*menu*/
+
+.menu-container{
+
+
+
+}
+.menu-item{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.food-img{
+    width: 180px;
+    border-radius: 10px;
+}
+.photoAndIngredients{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+
+}
+.add-btn{
+    height: 50px;
+    width: 50px;
+    margin: auto 0;
+    border-radius: 50px;
+}
+
+.add-btn:hover{
+    background-color: #D3D3D3;
+    cursor: pointer;
+}
+
