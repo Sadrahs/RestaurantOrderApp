@@ -49,19 +49,29 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    margin: 20px 0;
 
 }
 
 .food-img{
-    width: 180px;
+    width: 120px;
     border-radius: 10px;
 }
 .photoAndIngredients{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     margin-left: 10px;
 
+}
+.food-info{
+    display: block;
+
+}
+
+.food-ingredients{
+    font-size: 14px;
+    color: #868686;
 }
 .add-btn{
     height: 50px;
@@ -75,3 +85,10 @@ body{
     cursor: pointer;
 }
 
+
+hr{
+    position: absolute;
+    width: 600px;
+    left: 0;
+    margin: 10px;
+}

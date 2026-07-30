@@ -10,7 +10,7 @@ export const menuArray = [
         name: "Hamburger",
         ingredients: ["beef", "cheese", "lettuce"],
         price: 12,
-        photo: "./images/burger.webp",
+        photo: "./images/burger.jpeg",
         id: 1
     },
         {
