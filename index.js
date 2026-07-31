@@ -35,6 +35,7 @@ function addToOrder(id){
 
 
     })
+      orders.style.display = 'block';
 
     return `
     <div class="order-item-info">
