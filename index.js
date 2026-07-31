@@ -35,6 +35,7 @@ function addToOrder(id){
 
 
     })
+        total +=1
       orders.style.display = 'block';
 
     return `
