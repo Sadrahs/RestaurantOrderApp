@@ -30,10 +30,30 @@
                 <p class="total-price-text">Total Price: </p>
                 <p class="total-price-value" id="total-price-value"></p>
             </div>
-            <button class="complete-order-btn">Complete Order</button>
+            <button class="complete-order-btn" id="complete-order-btn" data-complete="complete">Complete Order</button>
 
 
 
+        </section>
+        
+
+        <section class="payment-details hidden" id="payment-details">
+            <h2 class="payment-title">Enter Card Details</h2>
+            <form class="payment-form" id="payment-form">
+
+                <lable for="name">Name</lable>
+                <input type="text" id ="name" name="name" required placeholder="Enter your name">
+                <lable for="card-number">Card number</lable>
+                <input type="text" id ="card-number" name="card-number" required placeholder=" Enter your card number">
+                <lable for="cvv">CVV</lable>
+                <input type="text" id ="cvv" name="cvv" required placeholder="Enter your CVV">                    
+            </form>
+            <button class="pay-btn" id="pay-btn">Pay</button>
+        </section>
+
+        <section class="thank-you hidden" id="thank-you">
+            <h2 class="thank-you-title">Thank you for your order!</h2>
+            <p class="thank-you-text">Your order is being prepared and will be ready soon.</p>
         </section>
 
 
